@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Git Basics - Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Git Basics</h1>
+    <p>A Beginner's Guide to Git Version Control</p>
+</header>
+
+<div class="main-container">
+    <nav class="sidebar">
+        <h2>Contents</h2>
+        <ul>
+            <li><a href="#what-is-git">What is Git?</a></li>
+            <li><a href="#setting-up-git">Setting Up Git</a></li>
+            <li><a href="#basic-commands">Basic Git Commands</a></li>
+            <li><a href="#branching">Branching in Git</a></li>
+            <li><a href="#collaborating">Collaborating with Git</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <section id="what-is-git">
+            <h2>What is Git?</h2>
+            <p>Git is a distributed version control system to track changes in source code during software development. It helps developers collaborate efficiently and maintain code history.</p>
+        </section>
+
+        <section id="setting-up-git">
+            <h2>Setting Up Git</h2>
+            <p>To start using Git, you need to install it on your system. Follow these steps:</p>
+            <ul>
+                <li>Download Git from the official website: <a href="https://git-scm.com/" target="_blank">git-scm.com</a>.</li>
+                <li>Install Git following the on-screen instructions.</li>
+                <li>Configure Git with your name and email:
+                    <pre><code>git config --global user.name "Your Name"</code></pre>
+                    <pre><code>git config --global user.email "youremail@example.com"</code></pre>
+                </li>
+            </ul>
+        </section>
+
+        <section id="basic-commands">
+            <h2>Basic Git Commands</h2>
+            <p>Here are some basic Git commands to get you started:</p>
+            <ul>
+                <li><strong>git init</strong>: Initializes a new Git repository.</li>
+                <li><strong>git clone [url]</strong>: Clones a remote repository to your local machine.</li>
+                <li><strong>git add [file]</strong>: Stages a file for commit.</li>
+                <li><strong>git commit -m "[message]"</strong>: Commits the staged changes with a message.</li>
+                <li><strong>git push</strong>: Pushes your local commits to a remote repository.</li>
+                <li><strong>git pull</strong>: Fetches and merges changes from a remote repository.</li>
+            </ul>
+        </section>
+
+        <section id="branching">
+            <h2>Branching in Git</h2>
+            <p>Branches in Git allow you to work on different versions of your code. You can create, switch, and merge branches easily.</p>
+            <ul>
+                <li><strong>git branch [branch-name]</strong>: Creates a new branch.</li>
+                <li><strong>git checkout [branch-name]</strong>: Switches to an existing branch.</li>
+                <li><strong>git merge [branch-name]</strong>: Merges a branch into the current branch.</li>
+            </ul>
+        </section>
+
+        <section id="collaborating">
+            <h2>Collaborating with Git</h2>
+            <p>Git enables collaboration by allowing multiple people to work on the same project simultaneously.</p>
+            <ul>
+                <li>To contribute to a project, you can fork the repository, clone it, and create a pull request after making changes.</li>
+                <li>Collaboration is facilitated through branches and pull requests, helping to maintain a clean codebase.</li>
+            </ul>
+        </section>
+    </div>
+</div>
+
+<footer>
+    <p>Git Basics - Documentation Guide | © 2024</p>
+</footer>
+
+</body>
+</html>
